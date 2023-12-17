@@ -1,0 +1,312 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 100vh;
+    width: 90vw;
+    margin: 20px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+
+.slide{
+    height: 100vh;
+    width: 97vw;
+    position:absolute;
+    z-index: -9;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10vh;
+    color: aliceblue;
+    position: absolute;
+    z-index: 9;
+    top: 3%;
+    left: 3%;
+}
+
+.header button{
+    height: 70px;
+    width: 40px;
+    background-color: gray;
+    opacity: 0.5;
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+}
+
+.header button:hover{
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.right{
+    right:-7%;
+}
+
+.left{
+    left: 1%;
+}
+
+.text h1{
+    font-size: 3.5em;
+}
+
+.text p{
+    font-size: 1.3em;
+}
+
+.text {
+    position: absolute;
+    top: 45%;
+    right: -3%;
+    color: aliceblue;
+}
+
+nav img{
+    height: 55px;
+    width: 55px;
+    padding: 0px 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content
+{
+    text-align: center;
+    /* width: 756px; */
+    height: 600px;
+    margin: 10px 10px 10px 10px;
+    background-color: #8080803d;
+   
+}
+.img
+{
+    margin: 10px 10px 10px 10px;
+}
+.content h1
+{
+    margin-top: 150px;
+}
+.content button
+{
+    margin-top: 45px;
+    width: 200px;
+    height: 50px;
+}
+.content p{
+    padding: 2px 50px ;
+}
+
+
+.container1
+{
+    display: flex;
+}
+.content1
+{
+    text-align: center;
+    width: 756px;
+    height: 600px;
+    margin: 10px 10px 10px 10px;
+    background-color: #8080803d;
+   
+}
+.img1
+{
+    margin: 10px 10px 10px 10px;
+}
+.content1 h1
+{
+    margin-top: 150px;
+}
+.content1 button
+{
+    margin-top: 45px;
+    width: 200px;
+    height: 50px;
+}
+.content1 p{
+    padding: 2px 50px ;
+}
+.numbers
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 30px 30px 30px;
+    height: 100px; 
+}
+
+
+
+.container2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content2
+{
+    text-align: center;
+    /* width: 756px; */
+    height: 600px;
+    margin: 10px 10px 10px 10px;
+    background-color: #8080803d;
+   
+}
+.img2
+{
+    margin: 10px 10px 10px 10px;
+}
+.content2 h1
+{
+    margin-top: 150px;
+}
+.content2 button
+{
+    margin-top: 45px;
+    width: 200px;
+    height: 50px;
+}
+.content2 p{
+    padding: 2px 50px ;
+}
+.cards
+{
+display: flex;
+justify-content: space-evenly;
+}
+.card
+{
+    background-color: #8080803d ;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+.card p{
+    padding : 2px 50px ;
+    height: 160px;
+}
+
+.card img{
+    margin-top: 60px;
+}
+.long
+{
+    text-align: center;
+    height: 150px;
+    margin-top: 100px;
+}
+.short
+{
+    text-align: center;
+    height: 100px;
+}
+.templates
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.temp1
+{
+    height: 350px;
+    width: 350px;
+    background-color: white ;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.temp1 p
+{
+    margin-top: 50px;
+}
+.temp img{
+height: 350px;
+width: 350px;
+margin-top: 10px;
+
+}
+.head
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.details
+{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.button
+{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
+.details input
+{
+    height: 40px;
+    width: 750px;
+}
+.details h5{
+    font-size: 20px;}
+.footer
+{
+    background-color: rgb(42, 39, 39);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    margin-top: 20px;
+}
+.footer h4{
+    color: gray;
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    
+}
+.menu
+{
+    margin-top: 50px;
+}
+.footer li{
+    list-style: none;
+}
+.button
+{
+    background-color: white;
+    
+}
+.button:hover{
+background-color: gray;  
+color: white;
+border: none; 
+
+}
+.temp:hover
+{
+    opacity: 0.25;
+}
+nav li:hover{
+    color: gray;
+}
